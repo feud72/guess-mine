@@ -1,0 +1,19 @@
+{
+  "name": "guess-mine",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/feud72/guess-mine.git",
+  "author": "feud72 <feud72@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "socket.io": "^2.3.0"
+  },
+  "scripts": {
+    "dev:server": "nodemon --exec babel-node src/server"
+  }
+}
